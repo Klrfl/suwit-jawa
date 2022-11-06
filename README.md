@@ -16,3 +16,8 @@ Saya membuat permainan ini dengan JavaScript yang dihubungkan dengan halaman HTM
 Saya berencana untuk mengubah JavaScript agar tidak menggunakan `alert` dan `prompt` seperti saat ini supaya lebih user-friendly.
 
 Saya membuat permainan ini setelah menonton [video berikut](https://youtu.be/Mmf3SXHifBw).
+
+## Cara mainnya gimana?
+Unduh kode dan buka `index.html` di peramban web kesukaanmu.
+
+Kalau kamu sudah keluar dari permainan dan ingin bermain lagi, cukup refresh atau reload halaman.
