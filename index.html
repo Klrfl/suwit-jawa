@@ -4,13 +4,41 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Suwit Jawa by Klrfl</title>
   <meta keywords="HTML, JavaScript">
   <meta name="description" content="ini adalah permainan suwit jawa dengan JavaScript.">
+  <title>Suwit Jawa by Klrfl</title>
+  
+  <!-- css link -->
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <h1>Ga ada apa apa kok.</h1>
+  <main>
+    <div class="game-card">
+      <div class="game-info">
+        <h1>Suwit Jawa.</h1>
+        <p>Kamu akan memilih antara manusia, gajah atau semut. Lalu, komputer juga akan memilih (secara acak) antara manusia gajah atau semut. Peraturannya sederhana:</p>
+        <ul>
+          <li>gajah mengalahkan manusia dan semut,</li>
+          <li>manusia mengalahkan semut, dan</li>
+          <li>semut mengalahkan gajah.</li>
+        </ul>
+        <p>silahkan bermain!</p>
+      </div>
+      <button id="game-btn" onclick="suwitJawa()">Main</button>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-text">
+      <p>Made by Klrfl, 2022.</p>
+    </div>
+    <div class="footer-socials">
+      <a href="https://github.com/Klrfl"><i class="fa-brands fa-github"></i> Github</a>
+      <a href="https://codepen.io/Klrfl"><i class="fa-brands fa-codepen"></i> Codepen</a>
+    </div>
+  </footer>
+
   <script src="JS/suwit.js"></script>
+  <script src="https://kit.fontawesome.com/12334b3056.js" crossorigin="anonymous"></script>
 </body>
 </html>

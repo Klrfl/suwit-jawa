@@ -1,5 +1,6 @@
 function suwitJawa(){
   gameJalan = true;
+
   while (gameJalan){
       // buat daftar jawaban
       let daftarJawab = ["manusia", "gajah", "semut"];
@@ -30,9 +31,9 @@ function suwitJawa(){
           hasil = (jawabKomp == "manusia") ? "kalah!": "menang!";
         }
         else{
-          alert("kamu memasukkan jawaban selain 0, 1, atau 2. Mau ulang lagi? ");
+          alert("yang bener napa sih.");
+          break;
         };
-      
       }
       
       alert(`jawaban kamu: ${jawab} \njawaban komputer: ${jawabKomp} \nKamu ${hasil}`);
@@ -40,9 +41,7 @@ function suwitJawa(){
       let ulang = prompt("kalau mau main lagi, ketik apa aja. Kalo ga, biarin kosong aja.");
       
       if (!(ulang)){
-        break;
+        gameJalan = false;
       };
     }
 };
-
-suwitJawa();
