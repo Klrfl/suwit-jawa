@@ -13,8 +13,6 @@ Dalam permainan ini, anda akan melawan komputer. Anda akan memilih gajah, manusi
 ## Bikinnya pake apa?
 Saya membuat permainan ini dengan JavaScript yang dihubungkan dengan halaman HTML sederhana.
 
-Saya berencana untuk mengubah JavaScript agar tidak menggunakan `alert` dan `prompt` seperti saat ini supaya lebih user-friendly.
-
 Saya membuat permainan ini setelah menonton [video berikut](https://youtu.be/Mmf3SXHifBw).
 
 ## Cara mainnya gimana?
