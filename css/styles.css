@@ -1,3 +1,7 @@
+:root{
+  color-scheme: light dark;
+}
+
 *{
   box-sizing: border-box;
 }
@@ -8,6 +12,13 @@ body{
   font: 1rem system-ui;
 }
 
+@media (prefers-color-scheme:dark){
+  body{
+    background: #2d2d3f;
+    color: #ddd;
+  }
+}
+
 main{
   display: flex;
   justify-content: center;
@@ -16,7 +27,7 @@ main{
 }
 
 .game-card{
-  outline: 1px solid black;
+  outline: 1px solid;
   margin: 1em;
   padding: 2em;
   max-width: 75ch;
